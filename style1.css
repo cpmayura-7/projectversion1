@@ -1,14 +1,14 @@
     body {
-        background-color: darkslategray;
+        background-color: black;
         color: white;
 }
     }
     h1 {
         color: white;
         text-align: center;
-        text-decoration-color: goldenrod;
         font-family: Georgia, 'Times New Roman', Times, serif;
         font-weight: bold;
+        text-underline-position: below;
     }
     ul {
         font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -17,45 +17,61 @@
 
     }
     h2 {
-        background-color:burlywood;
+        background-color:#ff00;
         text-align: center;
-        font-family: cursive;
-        text-shadow: 2px 2px #ff0000;
+        font-family: Georgia, 'Times New Roman', Times, serif;
         color: white;
     }
     p {
         color: white;
         font-family: cursive;
         font-size: 15px;
+        text-align: justify;
     }
     #Studies {
         background-color: cornflowerblue;
         text-decoration: underline;
         color: thistle;
     }
+    ul {
+        font-size: 13px ;
+    }
     h3 {
         color: wheat;
         font-family: cursive;
         font-size: 15px;
     }
-    table, th,td,tr {
-        border: 2px solid black;
-        color: wheat;
-     }
-     .p-welcome {
+    .p-welcome {
+        text-align: center;
         color:white;
         font-family:Verdana, Geneva, Tahoma, sans-serif;
         font-size: 14px;
         text-align: justify;
      }
+     .p-welcome1 {
+        text-align: center;
+        color:black;
+        font-family:Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 14px;
+        text-align: justify;
+     }
+
      .img-container {
         text-align: center;
+     }
+     button{
+        background-color: black;
+        border: 2px solid white;
+        color:white;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin-right: 50px;
+
+     }
 
 .CSS {
     color: darkred;
-}
-.table1, th, td, tr{
-    border: 0px solid darkslategray;
-    border-width: thin;
-    border-color: darkslategray;
 }
